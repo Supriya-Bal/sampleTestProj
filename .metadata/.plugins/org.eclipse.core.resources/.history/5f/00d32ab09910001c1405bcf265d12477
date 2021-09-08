@@ -1,0 +1,53 @@
+
+server.port=8547
+
+
+
+#spring.application.name=SpringBoot-MiniProject
+#spring.cloud.config.uri=http://localhost:6543
+#spring.profiles.active=production
+#management.endpoints.web.exposure.include=refresh
+
+debug=true
+
+spring.datasource.url=jdbc:h2:~/test
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+spring.h2.console.enabled=true
+
+    
+spring.jpa.hibernate.ddl-auto = create
+spring.jpa.show-sql=true
+
+#spring.datasource.url= jdbc:oracle:thin:@localhost:1521/orcl
+#spring.datasource.username=scott
+#spring.datasource.password=tiger
+#spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+
+
+
+
+#hibernate config
+#spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
+
+
+
+logging.level.org.springframework=DEBUG
+logging.level.com.howtodoinjava=DEBUG
+ 
+#output to a temp_folder/file
+#logging.file=${java.io.tmpdir}/application.log
+
+#logging.file=c:/users/howtodoinjava/application-debug.log
+
+#logging.level.root= info
+#logging.level.com.supi= debug
+ 
+# Logging pattern for the console
+#logging.pattern.console= %d{yyyy-MM-dd HH:mm:ss} - %msg%n
+ 
+# Logging pattern for file
+#logging.pattern.file= %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%

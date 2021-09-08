@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Microservice-ServiceRegistry_EurekaServer1
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL:http://localhost:8888}

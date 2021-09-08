@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IOC-Proj1&apos; to &apos;IOCProj1-DependencyInjection_Setter&apos;" description="Rename resource &apos;IOC-Proj1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IOC-Proj1" name="IOCProj1-DependencyInjection_Setter" stamp="1614140051397" updateReferences="true"/>
+</session>
